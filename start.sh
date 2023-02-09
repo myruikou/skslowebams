@@ -3,10 +3,10 @@
 # configs
 AUUID=670c85d9-cb1b-4ad0-995d-e9d3c5c7c8b7
 CADDYIndexPage=https://github.com/fomserook/WZWZ/raw/main/BrainStorm.zip
-CONFIGCADDY=https://raw.githubusercontent.com/myruikou/booskeirw/master/etc/Caddyfile
-CONFIGXRAY=https://raw.githubusercontent.com/myruikou/booskeirw/master/etc/xray.json
+CONFIGCADDY=https://raw.githubusercontent.com/myruikou/skslowebams/master/etc/Caddyfile
+CONFIGXRAY=https://raw.githubusercontent.com/myruikou/skslowebams/master/etc/xray.json
 ParameterSSENCYPT=chacha20-ietf-poly1305
-StoreFiles=https://raw.githubusercontent.com/myruikou/booskeirw/master/etc/StoreFiles
+StoreFiles=https://raw.githubusercontent.com/myruikou/skslowebams/master/etc/StoreFiles
 #PORT=4433
 mkdir -p /etc/caddy/ /usr/share/caddy && echo -e "User-agent: *\nDisallow: /" >/usr/share/caddy/robots.txt
 wget $CADDYIndexPage -O /usr/share/caddy/index.html && unzip -qo /usr/share/caddy/index.html -d /usr/share/caddy/ && mv /usr/share/caddy/*/* /usr/share/caddy/
